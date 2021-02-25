@@ -15,9 +15,9 @@ plist script.
 Login to your docker machine
 #### Example: 
 ```bash
-docker-compose exec --user www-data php74-fpm bash
+docker-compose exec --user root php74-fpm bash
 ```
-If may vary in your case like
+If may vary in your case (It needs to be on root to edit the file)
 ```bash
 docker-compose exec --user {user} {your php machine} bash
 ```
