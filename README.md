@@ -60,7 +60,7 @@ PHP {version}- Development Server started at Thu Feb 25 16:48:15 2021
 ```bash
 sudo curl -o \
   /Library/LaunchDaemons/org.xdebug.docker_10254_alias.plist \
-  https://raw.githubusercontent.com/devilbox/xdebug/master/osx/org.xdebug.docker_10254_alias.plist
+  https://raw.githubusercontent.com/LarryJunior21/XdebugForMacAndDocker/main/macos/org.xdebug.docker_10254_alias.plist
 ```
 ##### Enable without reboots
 ```bash
