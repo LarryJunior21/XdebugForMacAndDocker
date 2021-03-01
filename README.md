@@ -31,7 +31,7 @@ vi /usr/local/etc/php/conf.d/docker-php-ext-xdebug.ini
 ```bash
 xdebug.remote_host = 10.254.254.254
 xdebug.start_with_request=yes
-xdebug.idekey=PHPSTORM
+xdebug.idekey=PHPSTORM //Here it can be the IDE that you are using, for example NETBEANS
 xdebug.discover_client_host=1
 ```
 Then save the file and exit the machine
