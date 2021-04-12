@@ -13,6 +13,7 @@ plist script.
 ### Changing the environment if necessary
 
 Login to your docker machine
+### For docker-compose
 #### Example: 
 ```bash
 docker-compose exec --user root php74-fpm bash
@@ -22,6 +23,10 @@ If may vary in your case (It needs to be on root to edit the file)
 docker-compose exec --user {user} {your php machine} bash
 ```
 Just replace without the "{}"
+### For warden
+```bash
+warden bash
+```
 
 #### Edit your docker-php-ext-xdebug.ini file
 ```bash
